@@ -1,0 +1,15 @@
+name:
+trainer:
+  dataset_path:
+    train: 
+    test: 
+  batch_size:
+    train: 
+    eval: 
+    test: 
+model:
+  optimizer:
+  lr:
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
