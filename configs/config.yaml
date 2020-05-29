@@ -1,4 +1,7 @@
 name:
+wandb:
+  offline: false
+  name: MODEL-NAME_${now:%Y-%m-%d}_${now:%H-%M-%S}
 trainer:
   dataset_path:
     train: 
